@@ -1,4 +1,4 @@
-# 🔬 SeqFeaturizer
+# SeqFeaturizer
 
 **SeqFeaturizer** is a lightweight Python CLI tool for quickly calculating and visualizing interpretable features from DNA sequences — including:
 
@@ -10,7 +10,7 @@ It's perfect for identifying low-complexity regions, comparing diversity across 
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✅ GC content, k-mer frequency, Shannon entropy
 - ✅ Sliding window entropy with customizable window & step size
@@ -20,7 +20,7 @@ It's perfect for identifying low-complexity regions, comparing diversity across 
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/seqfeaturizer.git
@@ -32,13 +32,13 @@ Requires: Python 3.7+, `pandas`, `plotly`
 
 ---
 
-## 📂 Input
+## Input
 
 FASTA file (`.fa` or `.fasta`) containing one or more sequences.
 
 ---
 
-## 📤 Output
+## Output
 
 - `output.csv`: CSV file with feature values for each sequence
 - `entropy_filtered_windows.fa`: Sequence windows matching an entropy threshold
@@ -47,7 +47,7 @@ FASTA file (`.fa` or `.fasta`) containing one or more sequences.
 
 ---
 
-## 💡 Example Usage
+## Example Usage
 
 ### 1. Extract entropy & plot diversity across sequences
 
@@ -75,7 +75,7 @@ seqfeat --input example.fa --output features.csv --features entropy \
 
 ---
 
-## 📊 What Is Shannon Entropy?
+## What Is Shannon Entropy?
 
 Shannon entropy measures sequence diversity. Higher values = more random base usage. Lower values = repeats or homopolymers.
 
@@ -86,7 +86,7 @@ It helps identify:
 
 ---
 
-## 🧠 Why Use This?
+## Why Use This?
 
 - Instantly compare diversity profiles across genomes
 - Visually scan for entropy spikes or drops
@@ -94,7 +94,7 @@ It helps identify:
 
 ---
 
-## 🧪 Example Input
+## Example Input
 
 ```fasta
 >seq1
@@ -105,9 +105,9 @@ CGTGACTGATCGATGCGTAGCATCGATCGTACGTA
 
 ---
 
-## 📜 License
+## License
 
-MIT © 2024 YOUR NAME
+MIT © 2024 STEVEN LANG
 
 ---
 
