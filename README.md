@@ -12,11 +12,11 @@ It's perfect for identifying low-complexity regions, comparing diversity across 
 
 ## Features
 
-- ✅ GC content, k-mer frequency, Shannon entropy
-- ✅ Sliding window entropy with customizable window & step size
-- ✅ Plot interactive **entropy trace plots** using Plotly
-- ✅ Extract only the windows or sequences that meet entropy criteria
-- ✅ Fast CLI usage, ready for scripting
+- GC content, k-mer frequency, Shannon entropy
+- Sliding window entropy with customizable window & step size
+- Plot interactive **entropy trace plots** using Plotly
+- Extract only the windows or sequences that meet entropy criteria
+- Fast CLI usage, ready for scripting
 
 ---
 
@@ -25,7 +25,7 @@ It's perfect for identifying low-complexity regions, comparing diversity across 
 ```bash
 git clone https://github.com/YOUR_USERNAME/seqfeaturizer.git
 cd seqfeaturizer
-pip install -e .
+pip install .
 ```
 
 Requires: Python 3.7+, `pandas`, `plotly`
