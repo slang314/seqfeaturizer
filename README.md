@@ -111,6 +111,6 @@ MIT © 2024 STEVEN LANG
 
 ---
 
-## 🙋 Need Help?
+## Need Help?
 
-Open an [issue](https://github.com/YOUR_USERNAME/seqfeaturizer/issues) or submit a PR!
+Open an [issue](https://github.com/slang314/seqfeaturizer/issues) or submit a PR!
