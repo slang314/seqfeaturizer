@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: seqfeaturizer
+Version: 0.2.1
+Summary: CLI tool to extract and filter interpretable features from biological sequences
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.7
+Requires-Dist: pandas
+Requires-Dist: plotly
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
